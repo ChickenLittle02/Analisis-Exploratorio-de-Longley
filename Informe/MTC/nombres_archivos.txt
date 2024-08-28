@@ -1,0 +1,15 @@
+Armed.Forces_central.png
+Armed.Forces_dispersion.png
+Employed_central.png
+Employed_dispersion.png
+GNP.deflator_central.png
+GNP.deflator_dispersion.png
+GNP_central.png
+GNP_dispersion.png
+Population_central.png
+Population_dispersion.png
+Unemployed_central.png
+Unemployed_dispersion.png
+Year_central.png
+Year_dispersion.png
+script_nombre.sh

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1724851353.58102 "c:/Users/RUBEN/Desktop/DATASET FINAL LONGLEY/Data Set Longley/Data Set Longley/Informe/Informe.tex" "Informe.pdf" "Informe" 1724851355.14192 0
+["pdflatex"] 1724882822.4337 "c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex" "Informe.pdf" "Informe" 1724882824.13612 0
   "C:/Users/RUBEN/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724535811 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/RUBEN/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1722464689 11548 1b6a1cebb0451d3a16d78f551c73072d ""
   "C:/Users/RUBEN/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1720817809 24264717 9c2464dfce8cce5235f08e9052898b87 ""
@@ -50,8 +50,13 @@
   "C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1718270727 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
   "C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "Correlacion.png" 1724255221 19919 4ebf9357ff433b805fa925ae238c5517 ""
-  "Informe.aux" 1724851354 3219 7b667d47dea75b02841982b474e0b3ad "pdflatex"
-  "Informe.tex" 1724851351 11453 72ffaec82cb75eab2a7a5cc7f710849d ""
+  "Graficos_Dispersion/GNP.deflator_vs_GNP.png" 1724882395 4642 043fa1df9fdc893b74f3fc61f0b8462a ""
+  "Graficos_Dispersion/GNP_vs_Employed.png" 1724882395 4467 8a1c828afdbee30b570a2007604a25f6 ""
+  "Graficos_Dispersion/Population_vs_Employed.png" 1724882395 4457 3e62aea0327cc35a36150ea5bee9bc90 ""
+  "Graficos_Dispersion/Unemployed_vs_Employed.png" 1724882395 4209 92e54fad544448274864ce350cc9d33f ""
+  "Graficos_Dispersion/Unemployed_vs_GNP.png" 1724882395 4419 f0bc364789d5910ac1cac3245c41d0eb ""
+  "Informe.aux" 1724882823 3609 fa4c1d842ced33959bae6f766e0e2c0f "pdflatex"
+  "Informe.tex" 1724882820 20043 5edd15d1cbe4b491c7d371aae75cc249 ""
   "MTC/Armed.Forces_central.png" 1724850555 25971 bf3e0daec5cc88ff06879ab0b16fb3de ""
   "MTC/Armed.Forces_dispersion.png" 1724850555 28924 70a2f83a34d25bbc4283b00b570ca846 ""
   "MTC/Employed_central.png" 1724850555 25898 ffb628e436dcebef3fa0aa1233c14c69 ""
@@ -67,7 +72,7 @@
   "MTC/Year_central.png" 1724850555 23070 ec547944b89553c522f2febe07d2fd89 ""
   "MTC/Year_dispersion.png" 1724850555 28952 710ef5648c3c5257bb4924259b42545a ""
   "Normal.png" 1724256981 9871 b7a4c965ff36978a693212ac4c54fb2d ""
-  "c:/Users/RUBEN/Desktop/DATASET FINAL LONGLEY/Data Set Longley/Data Set Longley/Informe/Informe.tex" 1724851351 11453 72ffaec82cb75eab2a7a5cc7f710849d ""
+  "c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex" 1724882820 20043 5edd15d1cbe4b491c7d371aae75cc249 ""
   (generated)
   "Informe.aux"
   "Informe.log"

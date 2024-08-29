@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  28 AUG 2024 09:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  28 AUG 2024 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RUBEN/Desktop/DATASET FINAL LONGLEY/Data Set Longley/Data Set Longley/Informe/Informe.tex"
-(c:/Users/RUBEN/Desktop/DATASET FINAL LONGLEY/Data Set Longley/Data Set Longley/Informe/Informe.tex
+**"c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex"
+(c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -193,93 +193,154 @@ Package pdftex.def Info: MTC/GNP.deflator_dispersion.png  used on input line 30.
 <MTC/GNP_central.png, id=11, 433.62pt x 108.405pt>
 File: MTC/GNP_central.png Graphic file (type png)
 <use MTC/GNP_central.png>
-Package pdftex.def Info: MTC/GNP_central.png  used on input line 42.
+Package pdftex.def Info: MTC/GNP_central.png  used on input line 54.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/GNP_dispersion.png, id=12, 433.62pt x 108.405pt>
 File: MTC/GNP_dispersion.png Graphic file (type png)
 <use MTC/GNP_dispersion.png>
-Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 47.
+Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 59.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Unemployed_central.png, id=13, 433.62pt x 108.405pt>
+
+
+[2 <./MTC/GNP_central.png> <./MTC/GNP_dispersion.png>]
+<MTC/Unemployed_central.png, id=16, 433.62pt x 108.405pt>
 File: MTC/Unemployed_central.png Graphic file (type png)
 <use MTC/Unemployed_central.png>
-Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 59.
+Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 83.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Unemployed_dispersion.png, id=14, 433.62pt x 108.405pt>
+<MTC/Unemployed_dispersion.png, id=17, 433.62pt x 108.405pt>
 File: MTC/Unemployed_dispersion.png Graphic file (type png)
 <use MTC/Unemployed_dispersion.png>
-Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 64.
+Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 88.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[2 <./MTC/GNP_central.png> <./MTC/GNP_dispersion.png> <./MTC/Unemployed_central.png>]
-<MTC/Armed.Forces_central.png, id=18, 433.62pt x 108.405pt>
+[3 <./MTC/Unemployed_central.png> <./MTC/Unemployed_dispersion.png>]
+<MTC/Armed.Forces_central.png, id=21, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_central.png Graphic file (type png)
 <use MTC/Armed.Forces_central.png>
-Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 76.
+Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 112.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Armed.Forces_dispersion.png, id=19, 433.62pt x 108.405pt>
+<MTC/Armed.Forces_dispersion.png, id=22, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_dispersion.png Graphic file (type png)
 <use MTC/Armed.Forces_dispersion.png>
-Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 81.
+Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 117.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[3 <./MTC/Unemployed_dispersion.png> <./MTC/Armed.Forces_central.png> <./MTC/Armed.Forces_dispersion.png>]
-<MTC/Population_central.png, id=23, 433.62pt x 108.405pt>
+[4 <./MTC/Armed.Forces_central.png> <./MTC/Armed.Forces_dispersion.png>]
+Overfull \hbox (18.25612pt too wide) in paragraph at lines 124--125
+[]\OT1/cmr/m/n/10 La simetr^^S^^Pa neg-a-tiva (-0.37) sug-iere una in-cli-naci^^Son ha-cia la izquierda. 
+ []
+
+<MTC/Population_central.png, id=26, 433.62pt x 108.405pt>
 File: MTC/Population_central.png Graphic file (type png)
 <use MTC/Population_central.png>
-Package pdftex.def Info: MTC/Population_central.png  used on input line 93.
+Package pdftex.def Info: MTC/Population_central.png  used on input line 141.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Population_dispersion.png, id=24, 433.62pt x 108.405pt>
+<MTC/Population_dispersion.png, id=27, 433.62pt x 108.405pt>
 File: MTC/Population_dispersion.png Graphic file (type png)
 <use MTC/Population_dispersion.png>
-Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 98.
+Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 146.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Year_central.png, id=25, 433.62pt x 108.405pt>
+
+Overfull \hbox (4.75615pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/m/n/10 La me-dia es 117.42, in-di-cando el tama~no prome-dio de la poblaci^^Son. 
+ []
+
+
+
+[5 <./MTC/Population_central.png> <./MTC/Population_dispersion.png>]
+Overfull \hbox (5.81165pt too wide) in paragraph at lines 153--154
+[]\OT1/cmr/m/n/10 La simetr^^S^^Pa pos-i-tiva (0.26) sug-iere una in-cli-naci^^Son ha-cia la derecha. 
+ []
+
+<MTC/Year_central.png, id=31, 433.62pt x 108.405pt>
 File: MTC/Year_central.png Graphic file (type png)
 <use MTC/Year_central.png>
-Package pdftex.def Info: MTC/Year_central.png  used on input line 110.
+Package pdftex.def Info: MTC/Year_central.png  used on input line 171.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Year_dispersion.png, id=26, 433.62pt x 108.405pt>
+<MTC/Year_dispersion.png, id=32, 433.62pt x 108.405pt>
 File: MTC/Year_dispersion.png Graphic file (type png)
 <use MTC/Year_dispersion.png>
-Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 115.
+Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 176.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[4 <./MTC/Population_central.png> <./MTC/Population_dispersion.png> <./MTC/Year_central.png>]
-<MTC/Employed_central.png, id=30, 433.62pt x 108.405pt>
+[6 <./MTC/Year_central.png> <./MTC/Year_dispersion.png>]
+<MTC/Employed_central.png, id=36, 433.62pt x 108.405pt>
 File: MTC/Employed_central.png Graphic file (type png)
 <use MTC/Employed_central.png>
-Package pdftex.def Info: MTC/Employed_central.png  used on input line 127.
+Package pdftex.def Info: MTC/Employed_central.png  used on input line 200.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Employed_dispersion.png, id=31, 433.62pt x 108.405pt>
+<MTC/Employed_dispersion.png, id=37, 433.62pt x 108.405pt>
 File: MTC/Employed_dispersion.png Graphic file (type png)
 <use MTC/Employed_dispersion.png>
-Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 132.
+Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 205.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[5 <./MTC/Year_dispersion.png> <./MTC/Employed_central.png> <./MTC/Employed_dispersion.png>]
+[7 <./MTC/Employed_central.png> <./MTC/Employed_dispersion.png>]
+<Graficos_Dispersion/GNP.deflator_vs_GNP.png, id=42, 481.8pt x 481.8pt>
+File: Graficos_Dispersion/GNP.deflator_vs_GNP.png Graphic file (type png)
+<use Graficos_Dispersion/GNP.deflator_vs_GNP.png>
+Package pdftex.def Info: Graficos_Dispersion/GNP.deflator_vs_GNP.png  used on input line 235.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+<Graficos_Dispersion/GNP_vs_Employed.png, id=43, 481.8pt x 481.8pt>
+File: Graficos_Dispersion/GNP_vs_Employed.png Graphic file (type png)
+<use Graficos_Dispersion/GNP_vs_Employed.png>
+Package pdftex.def Info: Graficos_Dispersion/GNP_vs_Employed.png  used on input line 244.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
 
-[6]
-<Correlacion.png, id=39, 566.71725pt x 314.97675pt>
+
+[8 <./Graficos_Dispersion/GNP.deflator_vs_GNP.png>]
+<Graficos_Dispersion/Population_vs_Employed.png, id=49, 481.8pt x 481.8pt>
+File: Graficos_Dispersion/Population_vs_Employed.png Graphic file (type png)
+<use Graficos_Dispersion/Population_vs_Employed.png>
+Package pdftex.def Info: Graficos_Dispersion/Population_vs_Employed.png  used on input line 253.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+<Graficos_Dispersion/Unemployed_vs_GNP.png, id=50, 481.8pt x 481.8pt>
+File: Graficos_Dispersion/Unemployed_vs_GNP.png Graphic file (type png)
+<use Graficos_Dispersion/Unemployed_vs_GNP.png>
+Package pdftex.def Info: Graficos_Dispersion/Unemployed_vs_GNP.png  used on input line 266.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+
+
+[9 <./Graficos_Dispersion/GNP_vs_Employed.png> <./Graficos_Dispersion/Population_vs_Employed.png>]
+<Graficos_Dispersion/Unemployed_vs_Employed.png, id=56, 481.8pt x 481.8pt>
+File: Graficos_Dispersion/Unemployed_vs_Employed.png Graphic file (type png)
+<use Graficos_Dispersion/Unemployed_vs_Employed.png>
+Package pdftex.def Info: Graficos_Dispersion/Unemployed_vs_Employed.png  used on input line 275.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+
+
+[10 <./Graficos_Dispersion/Unemployed_vs_GNP.png> <./Graficos_Dispersion/Unemployed_vs_Employed.png>]
+<Correlacion.png, id=62, 566.71725pt x 314.97675pt>
 File: Correlacion.png Graphic file (type png)
 <use Correlacion.png>
-Package pdftex.def Info: Correlacion.png  used on input line 189.
+Package pdftex.def Info: Correlacion.png  used on input line 306.
 (pdftex.def)             Requested size: 276.00105pt x 153.40274pt.
 
 
-[7 <./Correlacion.png (PNG copy)>]
-<Normal.png, id=44, 566.71725pt x 317.38576pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[11]
+<Normal.png, id=66, 566.71725pt x 317.38576pt>
 File: Normal.png Graphic file (type png)
 <use Normal.png>
-Package pdftex.def Info: Normal.png  used on input line 206.
+Package pdftex.def Info: Normal.png  used on input line 323.
 (pdftex.def)             Requested size: 276.00105pt x 154.576pt.
 
 
-[8 <./Normal.png>] (Informe.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[12 <./Correlacion.png (PNG copy)>]
+
+[13 <./Normal.png>] (Informe.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -290,17 +351,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2340 strings out of 473904
- 38560 string characters out of 5726600
+ 2381 strings out of 473904
+ 40888 string characters out of 5726600
  1933908 words of memory out of 5000000
- 25203 multiletter control sequences out of 15000+600000
+ 25244 multiletter control sequences out of 15000+600000
  564568 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,402b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,464b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RUBEN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Informe.pdf (8 pages, 414362 bytes).
+Output written on Informe.pdf (13 pages, 441688 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

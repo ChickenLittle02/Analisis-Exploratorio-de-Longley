@@ -1,6 +1,6 @@
-PWD c:\Users\RUBEN\Desktop\DATASET FINAL LONGLEY\Data Set Longley\Data Set Longley\Informe
+PWD c:\Users\RUBEN\Documents\PC PAPA\SCHOOL\2do Año\2DO Semestre\Optativa\Analisis Exploratorio Mtcars\Longley\Analisis-Exploratorio-de-Longley\Informe
 INPUT C:\Users\RUBEN\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\RUBEN\Desktop\DATASET FINAL LONGLEY\Data Set Longley\Data Set Longley\Informe\Informe.tex
+INPUT c:\Users\RUBEN\Documents\PC PAPA\SCHOOL\2do Año\2DO Semestre\Optativa\Analisis Exploratorio Mtcars\Longley\Analisis-Exploratorio-de-Longley\Informe\Informe.tex
 OUTPUT Informe.log
 INPUT C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -181,6 +181,41 @@ INPUT .\MTC\Employed_dispersion.png
 INPUT C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP.deflator_vs_GNP.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\GNP_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Population_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_GNP.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
+INPUT .\Graficos_Dispersion\Unemployed_vs_Employed.png
 INPUT .\Correlacion.png
 INPUT .\Correlacion.png
 INPUT .\Correlacion.png

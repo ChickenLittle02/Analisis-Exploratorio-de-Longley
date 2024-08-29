@@ -1,0 +1,10 @@
+Correlacion.png
+Informe.aux
+Informe.fdb_latexmk
+Informe.fls
+Informe.log
+Informe.pdf
+Informe.synctex.gz
+Informe.tex
+Normal.png
+script_nombre.sh

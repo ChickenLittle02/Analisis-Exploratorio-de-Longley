@@ -1,0 +1,6 @@
+GNP.deflator_vs_GNP.png
+GNP_vs_Employed.png
+Population_vs_Employed.png
+Unemployed_vs_Employed.png
+Unemployed_vs_GNP.png
+script_nombre.sh

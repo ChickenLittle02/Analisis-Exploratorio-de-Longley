@@ -1,0 +1,4 @@
+GNP.deflator_vs_GNP.png
+GNP_vs_Year.png
+Population_vs_GNP.png
+script_nombre.sh

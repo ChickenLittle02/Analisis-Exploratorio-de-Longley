@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  28 AUG 2024 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  2 SEP 2024 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex"
-(c:/Users/RUBEN/Documents/PC PAPA/SCHOOL/2do Año/2DO Semestre/Optativa/Analisis Exploratorio Mtcars/Longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
+**c:/Users/RUBEN/Desktop/cambio/subiendo/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
+(c:/Users/RUBEN/Desktop/cambio/subiendo/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -123,10 +123,53 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box54
 \@float@everytoks=\toks26
 \@floatcapt=\box55
-) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen153
+\tc@lly=\dimen154
+\tc@urx=\dimen155
+\tc@ury=\dimen156
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen157
+\adjbox@Height=\dimen158
+\adjbox@Depth=\dimen159
+\adjbox@Totalheight=\dimen160
+\adjbox@pwidth=\dimen161
+\adjbox@pheight=\dimen162
+\adjbox@pdepth=\dimen163
+\adjbox@ptotalheight=\dimen164
+ (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count282
+) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count283
+\@vwid@loff=\dimen165
+\@vwid@roff=\dimen166
+)) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box58
 ) (Informe.aux
 
 LaTeX Warning: Label `fig:mi_imagen' multiply defined.
@@ -134,56 +177,56 @@ LaTeX Warning: Label `fig:mi_imagen' multiply defined.
 )
 \openout1 = `Informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen153
-\scratchbox=\box57
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen154
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count285
+\scratchdimen=\dimen167
+\scratchbox=\box59
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen168
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks30
 ) (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <MTC/GNP.deflator_central.png, id=1, 433.62pt x 108.405pt>
 File: MTC/GNP.deflator_central.png Graphic file (type png)
 <use MTC/GNP.deflator_central.png>
-Package pdftex.def Info: MTC/GNP.deflator_central.png  used on input line 25.
+Package pdftex.def Info: MTC/GNP.deflator_central.png  used on input line 26.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/GNP.deflator_dispersion.png, id=2, 433.62pt x 108.405pt>
 File: MTC/GNP.deflator_dispersion.png Graphic file (type png)
 <use MTC/GNP.deflator_dispersion.png>
-Package pdftex.def Info: MTC/GNP.deflator_dispersion.png  used on input line 30.
+Package pdftex.def Info: MTC/GNP.deflator_dispersion.png  used on input line 31.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
@@ -193,12 +236,12 @@ Package pdftex.def Info: MTC/GNP.deflator_dispersion.png  used on input line 30.
 <MTC/GNP_central.png, id=11, 433.62pt x 108.405pt>
 File: MTC/GNP_central.png Graphic file (type png)
 <use MTC/GNP_central.png>
-Package pdftex.def Info: MTC/GNP_central.png  used on input line 54.
+Package pdftex.def Info: MTC/GNP_central.png  used on input line 55.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/GNP_dispersion.png, id=12, 433.62pt x 108.405pt>
 File: MTC/GNP_dispersion.png Graphic file (type png)
 <use MTC/GNP_dispersion.png>
-Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 59.
+Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 60.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
@@ -206,12 +249,12 @@ Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 59.
 <MTC/Unemployed_central.png, id=16, 433.62pt x 108.405pt>
 File: MTC/Unemployed_central.png Graphic file (type png)
 <use MTC/Unemployed_central.png>
-Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 83.
+Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 84.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Unemployed_dispersion.png, id=17, 433.62pt x 108.405pt>
 File: MTC/Unemployed_dispersion.png Graphic file (type png)
 <use MTC/Unemployed_dispersion.png>
-Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 88.
+Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 89.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
@@ -219,51 +262,51 @@ Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 88.
 <MTC/Armed.Forces_central.png, id=21, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_central.png Graphic file (type png)
 <use MTC/Armed.Forces_central.png>
-Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 112.
+Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 113.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Armed.Forces_dispersion.png, id=22, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_dispersion.png Graphic file (type png)
 <use MTC/Armed.Forces_dispersion.png>
-Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 117.
+Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 118.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
 [4 <./MTC/Armed.Forces_central.png> <./MTC/Armed.Forces_dispersion.png>]
-Overfull \hbox (18.25612pt too wide) in paragraph at lines 124--125
+Overfull \hbox (18.25612pt too wide) in paragraph at lines 125--126
 []\OT1/cmr/m/n/10 La simetr^^S^^Pa neg-a-tiva (-0.37) sug-iere una in-cli-naci^^Son ha-cia la izquierda. 
  []
 
 <MTC/Population_central.png, id=26, 433.62pt x 108.405pt>
 File: MTC/Population_central.png Graphic file (type png)
 <use MTC/Population_central.png>
-Package pdftex.def Info: MTC/Population_central.png  used on input line 141.
+Package pdftex.def Info: MTC/Population_central.png  used on input line 142.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Population_dispersion.png, id=27, 433.62pt x 108.405pt>
 File: MTC/Population_dispersion.png Graphic file (type png)
 <use MTC/Population_dispersion.png>
-Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 146.
+Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 147.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
-Overfull \hbox (4.75615pt too wide) in paragraph at lines 150--151
+Overfull \hbox (4.75615pt too wide) in paragraph at lines 151--152
 []\OT1/cmr/m/n/10 La me-dia es 117.42, in-di-cando el tama~no prome-dio de la poblaci^^Son. 
  []
 
 
 
 [5 <./MTC/Population_central.png> <./MTC/Population_dispersion.png>]
-Overfull \hbox (5.81165pt too wide) in paragraph at lines 153--154
+Overfull \hbox (5.81165pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/10 La simetr^^S^^Pa pos-i-tiva (0.26) sug-iere una in-cli-naci^^Son ha-cia la derecha. 
  []
 
 <MTC/Year_central.png, id=31, 433.62pt x 108.405pt>
 File: MTC/Year_central.png Graphic file (type png)
 <use MTC/Year_central.png>
-Package pdftex.def Info: MTC/Year_central.png  used on input line 171.
+Package pdftex.def Info: MTC/Year_central.png  used on input line 172.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Year_dispersion.png, id=32, 433.62pt x 108.405pt>
 File: MTC/Year_dispersion.png Graphic file (type png)
 <use MTC/Year_dispersion.png>
-Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 176.
+Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 177.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
@@ -271,66 +314,56 @@ Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 176.
 <MTC/Employed_central.png, id=36, 433.62pt x 108.405pt>
 File: MTC/Employed_central.png Graphic file (type png)
 <use MTC/Employed_central.png>
-Package pdftex.def Info: MTC/Employed_central.png  used on input line 200.
+Package pdftex.def Info: MTC/Employed_central.png  used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Employed_dispersion.png, id=37, 433.62pt x 108.405pt>
 File: MTC/Employed_dispersion.png Graphic file (type png)
 <use MTC/Employed_dispersion.png>
-Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 205.
+Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 206.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
 [7 <./MTC/Employed_central.png> <./MTC/Employed_dispersion.png>]
-<Graficos_Dispersion/GNP.deflator_vs_GNP.png, id=42, 481.8pt x 481.8pt>
-File: Graficos_Dispersion/GNP.deflator_vs_GNP.png Graphic file (type png)
-<use Graficos_Dispersion/GNP.deflator_vs_GNP.png>
-Package pdftex.def Info: Graficos_Dispersion/GNP.deflator_vs_GNP.png  used on input line 235.
-(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
-<Graficos_Dispersion/GNP_vs_Employed.png, id=43, 481.8pt x 481.8pt>
-File: Graficos_Dispersion/GNP_vs_Employed.png Graphic file (type png)
-<use Graficos_Dispersion/GNP_vs_Employed.png>
-Package pdftex.def Info: Graficos_Dispersion/GNP_vs_Employed.png  used on input line 244.
+<GraficosDispersion/GNP.deflator_vs_GNP.png, id=42, 481.8pt x 481.8pt>
+File: GraficosDispersion/GNP.deflator_vs_GNP.png Graphic file (type png)
+<use GraficosDispersion/GNP.deflator_vs_GNP.png>
+Package pdftex.def Info: GraficosDispersion/GNP.deflator_vs_GNP.png  used on input line 260.
 (pdftex.def)             Requested size: 172.5pt x 172.4995pt.
 
 
-[8 <./Graficos_Dispersion/GNP.deflator_vs_GNP.png>]
-<Graficos_Dispersion/Population_vs_Employed.png, id=49, 481.8pt x 481.8pt>
-File: Graficos_Dispersion/Population_vs_Employed.png Graphic file (type png)
-<use Graficos_Dispersion/Population_vs_Employed.png>
-Package pdftex.def Info: Graficos_Dispersion/Population_vs_Employed.png  used on input line 253.
+[8]
+<GraficosDispersion/GNP_vs_Year.png, id=47, 481.8pt x 481.8pt>
+File: GraficosDispersion/GNP_vs_Year.png Graphic file (type png)
+<use GraficosDispersion/GNP_vs_Year.png>
+Package pdftex.def Info: GraficosDispersion/GNP_vs_Year.png  used on input line 271.
 (pdftex.def)             Requested size: 172.5pt x 172.4995pt.
-<Graficos_Dispersion/Unemployed_vs_GNP.png, id=50, 481.8pt x 481.8pt>
-File: Graficos_Dispersion/Unemployed_vs_GNP.png Graphic file (type png)
-<use Graficos_Dispersion/Unemployed_vs_GNP.png>
-Package pdftex.def Info: Graficos_Dispersion/Unemployed_vs_GNP.png  used on input line 266.
-(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
-
-
-[9 <./Graficos_Dispersion/GNP_vs_Employed.png> <./Graficos_Dispersion/Population_vs_Employed.png>]
-<Graficos_Dispersion/Unemployed_vs_Employed.png, id=56, 481.8pt x 481.8pt>
-File: Graficos_Dispersion/Unemployed_vs_Employed.png Graphic file (type png)
-<use Graficos_Dispersion/Unemployed_vs_Employed.png>
-Package pdftex.def Info: Graficos_Dispersion/Unemployed_vs_Employed.png  used on input line 275.
+<GraficosDispersion/Population_vs_GNP.png, id=48, 481.8pt x 481.8pt>
+File: GraficosDispersion/Population_vs_GNP.png Graphic file (type png)
+<use GraficosDispersion/Population_vs_GNP.png>
+Package pdftex.def Info: GraficosDispersion/Population_vs_GNP.png  used on input line 282.
 (pdftex.def)             Requested size: 172.5pt x 172.4995pt.
 
 
-[10 <./Graficos_Dispersion/Unemployed_vs_GNP.png> <./Graficos_Dispersion/Unemployed_vs_Employed.png>]
-<Correlacion.png, id=62, 566.71725pt x 314.97675pt>
+[9 <./GraficosDispersion/GNP.deflator_vs_GNP.png> <./GraficosDispersion/GNP_vs_Year.png>]
+Overfull \hbox (10.69507pt too wide) in paragraph at lines 299--301
+\OT1/cmr/m/n/10 Existe una relaci^^Son mod-er-ada en-tre el n^^Sumero de de-sem-plea-dos y la poblaci^^Son
+ []
+
+
+
+[10 <./GraficosDispersion/Population_vs_GNP.png>]
+<Correlacion.png, id=58, 566.71725pt x 314.97675pt>
 File: Correlacion.png Graphic file (type png)
 <use Correlacion.png>
-Package pdftex.def Info: Correlacion.png  used on input line 306.
+Package pdftex.def Info: Correlacion.png  used on input line 326.
 (pdftex.def)             Requested size: 276.00105pt x 153.40274pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[11]
-<Normal.png, id=66, 566.71725pt x 317.38576pt>
+[11 <./Correlacion.png (PNG copy)>]
+<Normal.png, id=62, 566.71725pt x 317.38576pt>
 File: Normal.png Graphic file (type png)
 <use Normal.png>
-Package pdftex.def Info: Normal.png  used on input line 323.
+Package pdftex.def Info: Normal.png  used on input line 343.
 (pdftex.def)             Requested size: 276.00105pt x 154.576pt.
 
 
@@ -338,7 +371,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[12 <./Correlacion.png (PNG copy)>]
+[12]
 
 [13 <./Normal.png>] (Informe.aux)
  ***********
@@ -351,17 +384,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2381 strings out of 473904
- 40888 string characters out of 5726600
- 1933908 words of memory out of 5000000
- 25244 multiletter control sequences out of 15000+600000
- 564568 words of font info for 60 fonts, out of 8000000 for 9000
+ 3497 strings out of 473904
+ 60066 string characters out of 5726600
+ 1937908 words of memory out of 5000000
+ 26324 multiletter control sequences out of 15000+600000
+ 566267 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,464b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 58i,9n,65p,429b,425s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RUBEN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Informe.pdf (13 pages, 441688 bytes).
+Output written on Informe.pdf (13 pages, 436565 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

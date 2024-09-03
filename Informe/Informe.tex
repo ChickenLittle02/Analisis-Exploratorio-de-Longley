@@ -4,6 +4,7 @@
 \usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{adjustbox}
 
 \title{Análisis Exploratoio de Longley}
 \author{}
@@ -223,72 +224,91 @@
 
 \section{Análisis de la Matriz de Correlación}
 
-\subsection{Correlaciones Fuertes Positivas}
 
-\subsection{Correlaciones Fuertes Positivas}
-
-\begin{itemize}
-    \item \textbf{GNP.deflator y GNP}: 0.991\\
-    Esto indica una relación muy fuerte entre el deflactor del PNB y el PNB en sí. A medida que el PNB aumenta, el deflactor también tiende a aumentar, lo que es esperado en la práctica económica.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Graficos_Dispersion/GNP.deflator_vs_GNP.png}
-        \label{fig:GNP.deflator_vs_GNP}
-        \vspace{0.5cm} % Espacio entre las imágenes
-    \end{figure}
-
-    \item \textbf{GNP y Employed}: 0.998\\
-    Hay una correlación casi perfecta entre el PNB y el número de empleados. Esto sugiere que un aumento en el PNB está fuertemente asociado con un aumento en el empleo.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Graficos_Dispersion/GNP_vs_Employed.png}
-        \label{fig:GNP_vs_Employed}
-        \vspace{0.5cm} % Espacio entre las imágenes
-    \end{figure}
-
-    \item \textbf{Population y Employed}: 0.999\\
-    La población y el empleo también están altamente correlacionados. A medida que la población crece, el número de empleados tiende a aumentar, lo que es lógico en un contexto de crecimiento demográfico.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Graficos_Dispersion/Population_vs_Employed.png}
-        \label{fig:Population_vs_Employed}
-        \vspace{0.5cm} % Espacio entre las imágenes
-    \end{figure}
-\end{itemize}
-
-\subsection{Correlaciones Fuertes Negativas}
-
-\begin{itemize}
-    \item \textbf{Unemployed y GNP}: -0.947\\
-    Esta correlación negativa indica que a medida que el PNB aumenta, el número de desempleados tiende a disminuir. Esto es un hallazgo común en la economía, donde un crecimiento económico generalmente se asocia con una disminución del desempleo.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Graficos_Dispersion/Unemployed_vs_GNP.png}
-        \label{fig:Unemployed_vs_GNP}
-        \vspace{0.5cm} % Espacio entre las imágenes
-    \end{figure}
-
-    \item \textbf{Unemployed y Employed}: -0.962\\
-    Existe una fuerte correlación negativa entre el número de desempleados y el número de empleados. Esto indica que cuando hay más personas empleadas, hay menos desempleados, lo que es un resultado esperado.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Graficos_Dispersion/Unemployed_vs_Employed.png}
-        \label{fig:Unemployed_vs_Employed}
-        \vspace{0.5cm} % Espacio entre las imágenes
-    \end{figure}
-\end{itemize}
-
-
-\subsection{Correlaciones Moderadas}
-
-\begin{itemize}
-    \item \textbf{Armed.Forces y Unemployed}: 0.822\\
-    Hay una relación positiva moderada entre el número de personas en las fuerzas armadas y el número de desempleados. Esto podría sugerir que en tiempos de conflicto o guerra, más personas se unen a las fuerzas armadas, lo que podría influir en las tasas de desempleo.
+\begin{table}[ht]
+    \centering
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{lrrrrrrr}
+    \hline
+     & GNP.deflator & GNP & Unemployed & Armed.Forces & Population & Year & Employed \\ 
+    \hline
+    GNP.deflator & 1.00 & 0.99 & 0.62 & 0.46 & 0.98 & 0.99 & 0.97 \\ 
+    GNP & 0.99 & 1.00 & 0.60 & 0.45 & 0.99 & 1.00 & 0.98 \\ 
+    Unemployed & 0.62 & 0.60 & 1.00 & -0.18 & 0.69 & 0.67 & 0.50 \\ 
+    Armed.Forces & 0.46 & 0.45 & -0.18 & 1.00 & 0.36 & 0.42 & 0.46 \\ 
+    Population & 0.98 & 0.99 & 0.69 & 0.36 & 1.00 & 0.99 & 0.96 \\ 
+    Year & 0.99 & 1.00 & 0.67 & 0.42 & 0.99 & 1.00 & 0.97 \\ 
+    Employed & 0.97 & 0.98 & 0.50 & 0.46 & 0.96 & 0.97 & 1.00 \\ 
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+    \caption{Correlation Matrix of the Longley Dataset}
+    \label{tab:correlation_matrix_longley}
+    \end{table}
     
-    \item \textbf{GNP.deflator y Population}: 0.991\\
-    La correlación entre el deflactor del PNB y la población es alta, lo que podría indicar que el crecimiento de la población influye en el deflactor.
-\end{itemize}
 
+    \section{Análisis de Correlaciones}
+
+    \subsection{Correlaciones Fuertes Positivas}
+    
+    \begin{itemize}
+        \item \textbf{GNP.deflator y GNP: 0.99} \\
+        Esta correlación muy fuerte indica que a medida que el deflactor del PNB (GNP.deflator) aumenta, el PNB también tiende a aumentar. Este resultado es coherente con las expectativas en economía, donde un aumento en el PNB generalmente se asocia con un aumento en los precios y, por lo tanto, en el deflactor del PNB.
+        
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{GraficosDispersion/GNP.deflator_vs_GNP.png}
+            \label{fig:GNP.deflator_vs_GNP}
+            \vspace{0.5cm} % Espacio entre las imágenes
+        \end{figure}
+           
+
+        \item \textbf{GNP y Year: 1.00} \\
+        La correlación perfecta entre GNP y el Año sugiere que el PNB ha aumentado de manera constante con el tiempo en el periodo estudiado. Esto podría reflejar un crecimiento económico constante durante los años observados.
+        
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{GraficosDispersion/GNP_vs_Year.png}
+            \label{fig:GNP_vs_Year}
+            \vspace{0.5cm} % Espacio entre las imágenes
+        \end{figure}
+
+        \item \textbf{Population y GNP: 0.99} \\
+        Esta correlación muy alta sugiere que a medida que la población aumenta, también lo hace el PNB. Esto podría indicar que el crecimiento económico ha ido de la mano con el crecimiento poblacional.
+    
+                
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{GraficosDispersion/Population_vs_GNP.png}
+            \label{fig:Population_vs_GNP}
+            \vspace{0.5cm} % Espacio entre las imágenes
+        \end{figure}
+    
+    \end{itemize}
+    
+    \subsection{Correlaciones Fuertes Negativas}
+    
+    \begin{itemize}
+        \item \textbf{No se observan correlaciones fuertes negativas} \\
+        En la tabla proporcionada, no se observan correlaciones negativas significativas entre las variables analizadas.
+    \end{itemize}
+    
+    \subsection{Correlaciones Moderadas}
+    
+    \begin{itemize}
+        \item \textbf{Unemployed y Population: 0.69} \\
+        Existe una relación moderada entre el número de desempleados y la población total. Esto podría indicar que a medida que la población crece, el número absoluto de desempleados también tiende a aumentar, aunque no necesariamente a la misma tasa.
+        
+        \item \textbf{Armed.Forces y Year: 0.42} \\
+        Esta correlación moderada sugiere una ligera tendencia a que, con el paso del tiempo, las Fuerzas Armadas han variado de manera no tan directa con los otros factores, lo cual podría reflejar cambios en políticas de defensa o en la situación geopolítica.
+    \end{itemize}
+    
+    \subsection{Correlaciones Débiles}
+    
+    \begin{itemize}
+        \item \textbf{Armed.Forces y Unemployed: -0.18} \\
+        La correlación negativa débil entre las Fuerzas Armadas y el desempleo indica que no hay una relación clara y fuerte entre estos dos factores. Esto podría reflejar que el tamaño de las Fuerzas Armadas no está directamente influenciado por los niveles de desempleo.
+    \end{itemize}
 \section{Conclusiones Chi -Cuadrado}
 
 \begin{enumerate}

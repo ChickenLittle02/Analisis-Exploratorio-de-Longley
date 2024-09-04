@@ -1,0 +1,66 @@
+Resumen del modelo GNP.deflator ~ GNP:
+
+Call:
+lm(formula = longley$GNP.deflator ~ longley$GNP)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.7814 -0.6233  0.3123  0.7925  2.9986 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 59.941915   1.500214   39.96 7.89e-16 ***
+longley$GNP  0.107659   0.003756   28.67 7.81e-14 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.446 on 14 degrees of freedom
+Multiple R-squared:  0.9832,	Adjusted R-squared:  0.9821 
+F-statistic: 821.8 on 1 and 14 DF,  p-value: 7.809e-14
+
+
+
+Resumen del modelo GNP ~ Year:
+
+Call:
+lm(formula = longley$GNP ~ longley$Year)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-15.877  -5.838   1.062   7.304  14.001 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -4.022e+04  1.059e+03  -37.98 1.59e-15 ***
+longley$Year  2.078e+01  5.418e-01   38.35 1.40e-15 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 9.991 on 14 degrees of freedom
+Multiple R-squared:  0.9906,	Adjusted R-squared:  0.9899 
+F-statistic:  1471 on 1 and 14 DF,  p-value: 1.396e-15
+
+
+
+Resumen del modelo Population ~ GNP:
+
+Call:
+lm(formula = longley$Population ~ longley$GNP)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.33105 -0.78643  0.03967  0.69821  1.37817 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 90.532884   0.995173   90.97  < 2e-16 ***
+longley$GNP  0.069361   0.002491   27.84 1.17e-13 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.959 on 14 degrees of freedom
+Multiple R-squared:  0.9823,	Adjusted R-squared:  0.981 
+F-statistic: 775.2 on 1 and 14 DF,  p-value: 1.168e-13
+
+
+

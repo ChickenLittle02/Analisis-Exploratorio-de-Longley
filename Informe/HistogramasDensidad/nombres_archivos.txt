@@ -1,0 +1,9 @@
+histograma_Armed.Forces.png
+histograma_Employed.png
+histograma_GNP.deflator.png
+histograma_GNP.png
+histograma_Population.png
+histograma_Unemployed.png
+histograma_Year.png
+histograma_gnp_deflator.png
+script_nombre.sh

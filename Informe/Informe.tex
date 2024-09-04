@@ -309,6 +309,68 @@
         \item \textbf{Armed.Forces y Unemployed: -0.18} \\
         La correlación negativa débil entre las Fuerzas Armadas y el desempleo indica que no hay una relación clara y fuerte entre estos dos factores. Esto podría reflejar que el tamaño de las Fuerzas Armadas no está directamente influenciado por los niveles de desempleo.
     \end{itemize}
+
+    \section*{Análisis del Modelo de Regresión Lineal: \texttt{GNP.deflator ~ GNP}}
+
+\subsection*{Resumen del Modelo}
+
+\textbf{Call:}  
+El modelo de regresión lineal fue ajustado con la fórmula \texttt{longley\$GNP.deflator ~ longley\$GNP}, donde \texttt{GNP.deflator} es la variable dependiente y \texttt{GNP} es la variable independiente.
+
+\subsection*{Residuos}
+Los residuos del modelo, que representan las diferencias entre los valores observados y los valores predichos, se distribuyen de la siguiente manera:
+\begin{itemize}
+    \item \textbf{Mínimo}: -2.7814
+    \item \textbf{1er Cuartil (1Q)}: -0.6233
+    \item \textbf{Mediana}: 0.3123
+    \item \textbf{3er Cuartil (3Q)}: 0.7925
+    \item \textbf{Máximo}: 2.9986
+\end{itemize}
+
+Esto indica que la mayoría de los errores de predicción están relativamente cerca de cero, lo que sugiere un buen ajuste del modelo.
+
+\subsection*{Coeficientes}
+El modelo proporciona los siguientes coeficientes para la ecuación de regresión:
+
+\begin{itemize}
+    \item \textbf{Intercepto}: 59.941915  
+    Este es el valor estimado de \texttt{GNP.deflator} cuando \texttt{GNP} es cero. Aunque un valor de \texttt{GNP} igual a cero no es realista, este valor tiene sentido en el contexto del modelo.
+
+    \item \textbf{longley\$GNP}: 0.107659  
+    Este coeficiente indica que por cada aumento de una unidad en \texttt{GNP}, el \texttt{GNP.deflator} aumenta en aproximadamente 0.107659 unidades. Dado que el coeficiente es positivo, esto sugiere una relación directa entre \texttt{GNP} y \texttt{GNP.deflator}, donde a medida que aumenta el \texttt{GNP}, también lo hace el \texttt{GNP.deflator}.
+\end{itemize}
+
+\subsection*{Significancia Estadística}
+\begin{itemize}
+    \item \textbf{Valor t del intercepto}: 39.96  
+    \item \textbf{Valor t del coeficiente de GNP}: 28.67  
+    \item \textbf{p-valor del intercepto}: 7.89e-16  
+    \item \textbf{p-valor del coeficiente de GNP}: 7.81e-14  
+\end{itemize}
+
+Ambos p-valores son extremadamente pequeños (mucho menores que 0.001), lo que indica que tanto el intercepto como el coeficiente de \texttt{GNP} son altamente significativos. Esto significa que \texttt{GNP} es una variable relevante para predecir \texttt{GNP.deflator}.
+
+\subsection*{Estadísticas del Modelo}
+\begin{itemize}
+    \item \textbf{Error estándar residual}: 1.446  
+    Este valor mide la dispersión de los residuos y sugiere que, en promedio, las predicciones del modelo tienen un error de $\pm1.446$ unidades.
+
+    \item \textbf{R-cuadrado múltiple}: 0.9832  
+    Este valor indica que el modelo explica el 98.32\% de la variabilidad observada en \texttt{GNP.deflator}, lo que sugiere un ajuste excelente del modelo.
+
+    \item \textbf{R-cuadrado ajustado}: 0.9821  
+    Este valor ajusta el R-cuadrado por el número de predictores en el modelo, confirmando que el modelo sigue siendo muy fuerte incluso después de tener en cuenta el ajuste.
+
+    \item \textbf{F-Estadístico}: 821.8  
+    Este valor, junto con un p-valor extremadamente pequeño (7.809e-14), indica que el modelo es globalmente significativo, lo que significa que hay una relación estadísticamente significativa entre \texttt{GNP} y \texttt{GNP.deflator}.
+\end{itemize}
+
+\subsection*{Conclusión}
+El modelo de regresión lineal \texttt{GNP.deflator ~ GNP} muestra una fuerte relación positiva entre \texttt{GNP} y \texttt{GNP.deflator}, donde un aumento en el \texttt{GNP} está asociado con un aumento en el \texttt{GNP.deflator}. Dado el alto valor de R-cuadrado y la significancia estadística de los coeficientes, el modelo es muy confiable para predecir \texttt{GNP.deflator} en función de \texttt{GNP}.
+
+
+
+
 \section{Conclusiones Chi -Cuadrado}
 
 \begin{enumerate}
@@ -327,6 +389,50 @@
     \caption{Grafico de Calor , Correlaciones } % Título de la figura
     \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_GNP.deflator.png}
+    \caption{Histograma y curvas de densidad para GNP.deflator}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_GNP.png}
+    \caption{Histograma y curvas de densidad para GNP}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Unemployed.png}
+    \caption{Histograma y curvas de densidad para Unemployed}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Armed.Forces.png}
+    \caption{Histograma y curvas de densidad para Armed Forces}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Population.png}
+    \caption{Histograma y curvas de densidad para Population}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Year.png}
+    \caption{Histograma y curvas de densidad para Year}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Employed.png}
+    \caption{Histograma y curvas de densidad para Employed}
+\end{figure}
+
+
 \section{Análisis de la Distribucion Normal} Después de ejecutar el código y generar el histograma, podemos observar lo siguiente: \begin{itemize}
     \item El histograma muestra una distribución aproximadamente simétrica y unimodal, lo que indica que los datos siguen una distribución similar a la normal.
     \item La media y la desviación estándar calculadas (representadas por la curva roja) se ajustan bien a la forma del histograma, lo que sugiere que la distribución normal es una buena aproximación para este conjunto de datos.

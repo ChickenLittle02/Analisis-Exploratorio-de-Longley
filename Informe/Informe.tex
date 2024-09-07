@@ -43,6 +43,14 @@
                 \item El coeficiente de variación es 10.61%, indicando una variabilidad moderada relativa a la media.
             \end{itemize}
     \end{itemize}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_GNP.deflator.png}
+        \caption{Histograma y curvas de densidad para GNP.deflator}
+        \vspace{0.5cm}
+    \end{figure}
+    
     
     \item \textbf{GNP (Gross National Product)}
     \begin{itemize}
@@ -73,6 +81,13 @@
             \end{itemize}
     \end{itemize}
     
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_GNP.png}
+        \caption{Histograma y curvas de densidad para GNP}
+        \vspace{0.5cm}
+    \end{figure}
+
     \item \textbf{Unemployed}
     \begin{itemize}
         \item \textbf{Descripción:} Número de personas desempleadas en miles.
@@ -101,6 +116,13 @@
                 \item El coeficiente de variación es 29.26%, indicando una alta variabilidad relativa a la media.
             \end{itemize}
     \end{itemize}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_Unemployed.png}
+        \caption{Histograma y curvas de densidad para Unemployed}
+        \vspace{0.5cm}
+    \end{figure}
     
     \item \textbf{Armed.Forces}
     \begin{itemize}
@@ -130,7 +152,13 @@
                 \item El coeficiente de variación es 26.70%, indicando una alta variabilidad relativa a la media.
             \end{itemize}
     \end{itemize}
-    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_Armed.Forces.png}
+        \caption{Histograma y curvas de densidad para Armed Forces}
+        \vspace{0.5cm}
+    \end{figure}
+
     \item \textbf{Population}
     \begin{itemize}
         \item \textbf{Descripción:} Tamaño de la población en miles.
@@ -160,6 +188,14 @@
             \end{itemize}
     \end{itemize}
     
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_Population.png}
+        \caption{Histograma y curvas de densidad para Population}
+        \vspace{0.5cm}
+    \end{figure}
+
+
     \item \textbf{Year}
     \begin{itemize}
         \item \textbf{Descripción:} Año en que se recolectaron los datos.
@@ -189,6 +225,13 @@
                 \item El coeficiente de variación es 0.24%, indicando una muy baja variabilidad relativa a la media.
             \end{itemize}
     
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_Year.png}
+                \caption{Histograma y curvas de densidad para Year}
+                \vspace{0.5cm}
+            \end{figure}
+
     \item \textbf{Employed}
     \begin{itemize}
         \item \textbf{Descripción:} Número de personas empleadas en miles.
@@ -219,8 +262,12 @@
             \end{itemize}
 \end{itemize}
 
-
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{HistogramasDensidad/histograma_Employed.png}
+    \caption{Histograma y curvas de densidad para Employed}
+    \vspace{0.5cm}
+\end{figure}
 
 \section{Análisis de la Matriz de Correlación}
 
@@ -385,53 +432,11 @@ El modelo de regresión lineal \texttt{GNP.deflator ~ GNP} muestra una fuerte re
 
 \begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
     \centering % Centra la imagen
-    \includegraphics[width=0.8\textwidth]{Correlacion.png}
+    \includegraphics[width=0.5\textwidth]{Correlacion.png}
     \caption{Grafico de Calor , Correlaciones } % Título de la figura
     \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
+    \vspace{0.5cm} % Espacio entre las imágenes
 \end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_GNP.deflator.png}
-    \caption{Histograma y curvas de densidad para GNP.deflator}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_GNP.png}
-    \caption{Histograma y curvas de densidad para GNP}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Unemployed.png}
-    \caption{Histograma y curvas de densidad para Unemployed}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Armed.Forces.png}
-    \caption{Histograma y curvas de densidad para Armed Forces}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Population.png}
-    \caption{Histograma y curvas de densidad para Population}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Year.png}
-    \caption{Histograma y curvas de densidad para Year}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{HistogramasDensidad/histograma_Employed.png}
-    \caption{Histograma y curvas de densidad para Employed}
-\end{figure}
-
 
 \section{Análisis de la Distribucion Normal} Después de ejecutar el código y generar el histograma, podemos observar lo siguiente: \begin{itemize}
     \item El histograma muestra una distribución aproximadamente simétrica y unimodal, lo que indica que los datos siguen una distribución similar a la normal.

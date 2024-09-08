@@ -50,6 +50,14 @@
         \caption{Histograma y curvas de densidad para GNP.deflator}
         \vspace{0.5cm}
     \end{figure}
+
+    
+    \section{Interpretación de los Resultados} \begin{itemize}
+        \item La distribución normal es una buena aproximación para el Producto Nacional Bruto (GNP) del conjunto de datos Longley, lo que significa que la mayoría de los valores se concentran alrededor de un valor central (la media) y disminuyen simétricamente hacia ambos lados.
+        \item La media y la desviación estándar son medidas importantes para describir la distribución normal. La media representa el valor central, mientras que la desviación estándar indica la dispersión de los datos alrededor de la media.
+        \item La simetría y unimodalidad del histograma sugieren que no hay evidencia de una distribución bimodal o multimodal, lo que podría indicar la presencia de subgrupos distintos en los datos.
+        \item La presencia de algunos valores atípicos puede indicar la existencia de observaciones inusuales o extremas en el conjunto de datos, que podrían requerir un análisis más profundo.
+        \end{itemize}
     
     
     \item \textbf{GNP (Gross National Product)}
@@ -293,6 +301,13 @@
     \label{tab:correlation_matrix_longley}
     \end{table}
     
+    \begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
+        \centering % Centra la imagen
+        \includegraphics[width=0.5\textwidth]{Correlacion.png}
+        \caption{Grafico de Calor , Correlaciones } % Título de la figura
+        \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
+        \vspace{0.5cm} % Espacio entre las imágenes
+    \end{figure}
 
     \section{Análisis de Correlaciones}
 
@@ -415,44 +430,4 @@ Ambos p-valores son extremadamente pequeños (mucho menores que 0.001), lo que i
 \subsection*{Conclusión}
 El modelo de regresión lineal \texttt{GNP.deflator ~ GNP} muestra una fuerte relación positiva entre \texttt{GNP} y \texttt{GNP.deflator}, donde un aumento en el \texttt{GNP} está asociado con un aumento en el \texttt{GNP.deflator}. Dado el alto valor de R-cuadrado y la significancia estadística de los coeficientes, el modelo es muy confiable para predecir \texttt{GNP.deflator} en función de \texttt{GNP}.
 
-
-
-
-\section{Conclusiones Chi -Cuadrado}
-
-\begin{enumerate}
-    \item \textbf{Relaciones Esperadas}: Las correlaciones observadas entre el PNB, el empleo y el desempleo son coherentes con las teorías económicas. Un crecimiento en el PNB generalmente se asocia con un aumento en el empleo y una disminución en el desempleo.
-    
-    \item \textbf{Colinealidad}: La alta correlación entre variables como GNP, Employed y Population sugiere que hay colinealidad, lo que puede complicar el análisis de regresión. Esto significa que estas variables pueden estar capturando información similar.
-    
-    \item \textbf{Implicaciones Económicas}: Los hallazgos pueden ser útiles para los formuladores de políticas. Por ejemplo, si se busca reducir el desempleo, se podría considerar estimular el crecimiento del PNB como una estrategia efectiva.
-    
-    \item \textbf{Limitaciones}: Aunque las correlaciones son informativas, no implican causalidad. Es importante tener en cuenta otros factores que pueden influir en estas relaciones.
-\end{enumerate}
-
-\begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
-    \centering % Centra la imagen
-    \includegraphics[width=0.5\textwidth]{Correlacion.png}
-    \caption{Grafico de Calor , Correlaciones } % Título de la figura
-    \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
-    \vspace{0.5cm} % Espacio entre las imágenes
-\end{figure}
-
-\section{Análisis de la Distribucion Normal} Después de ejecutar el código y generar el histograma, podemos observar lo siguiente: \begin{itemize}
-    \item El histograma muestra una distribución aproximadamente simétrica y unimodal, lo que indica que los datos siguen una distribución similar a la normal.
-    \item La media y la desviación estándar calculadas (representadas por la curva roja) se ajustan bien a la forma del histograma, lo que sugiere que la distribución normal es una buena aproximación para este conjunto de datos.
-    \item La mayoría de los valores del Producto Nacional Bruto (GNP) se concentran alrededor de la media, con una disminución gradual hacia los extremos del histograma.
-    \item Hay algunos valores atípicos o outliers que se encuentran fuera del rango principal de la distribución, pero en general, los datos se ajustan bien a la curva normal.
-    \end{itemize} \section{Interpretación de los Resultados} \begin{itemize}
-    \item La distribución normal es una buena aproximación para el Producto Nacional Bruto (GNP) del conjunto de datos Longley, lo que significa que la mayoría de los valores se concentran alrededor de un valor central (la media) y disminuyen simétricamente hacia ambos lados.
-    \item La media y la desviación estándar son medidas importantes para describir la distribución normal. La media representa el valor central, mientras que la desviación estándar indica la dispersión de los datos alrededor de la media.
-    \item La simetría y unimodalidad del histograma sugieren que no hay evidencia de una distribución bimodal o multimodal, lo que podría indicar la presencia de subgrupos distintos en los datos.
-    \item La presencia de algunos valores atípicos puede indicar la existencia de observaciones inusuales o extremas en el conjunto de datos, que podrían requerir un análisis más profundo.
-    \end{itemize}
-    \begin{figure}[h] % 'h' indica que la imagen debe aparecer aquí
-        \centering % Centra la imagen
-        \includegraphics[width=0.8\textwidth]{Normal.png}
-        \caption{Distribucion Normal} % Título de la figura
-        \label{fig:mi_imagen} % Etiqueta para referencias cruzadas
-    \end{figure}
 \end{document}

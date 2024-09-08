@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  7 SEP 2024 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.12)  8 SEP 2024 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RUBEN/Desktop/Ultima revision de todos/subiendo csmbios longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex"
-(c:/Users/RUBEN/Desktop/Ultima revision de todos/subiendo csmbios longley/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
+**"c:/Users/RUBEN/Desktop/Ultima revision de todos/Analisis-Exploratorio-de-Longley/Informe/Informe.tex"
+(c:/Users/RUBEN/Desktop/Ultima revision de todos/Analisis-Exploratorio-de-Longley/Informe/Informe.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -170,11 +170,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box58
-) (Informe.aux
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-)
+) (Informe.aux)
 \openout1 = `Informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -238,220 +234,213 @@ File: HistogramasDensidad/histograma_GNP.deflator.png Graphic file (type png)
 <use HistogramasDensidad/histograma_GNP.deflator.png>
 Package pdftex.def Info: HistogramasDensidad/histograma_GNP.deflator.png  used on input line 49.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
-<MTC/GNP_central.png, id=12, 433.62pt x 108.405pt>
+
+
+[2 <./HistogramasDensidad/histograma_GNP.deflator.png>]
+<MTC/GNP_central.png, id=17, 433.62pt x 108.405pt>
 File: MTC/GNP_central.png Graphic file (type png)
 <use MTC/GNP_central.png>
-Package pdftex.def Info: MTC/GNP_central.png  used on input line 63.
+Package pdftex.def Info: MTC/GNP_central.png  used on input line 71.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/GNP_dispersion.png, id=13, 433.62pt x 108.405pt>
+<MTC/GNP_dispersion.png, id=18, 433.62pt x 108.405pt>
 File: MTC/GNP_dispersion.png Graphic file (type png)
 <use MTC/GNP_dispersion.png>
-Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 68.
+Package pdftex.def Info: MTC/GNP_dispersion.png  used on input line 76.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-
-
-[2 <./HistogramasDensidad/histograma_GNP.deflator.png> <./MTC/GNP_central.png>]
-<HistogramasDensidad/histograma_GNP.png, id=18, 803.0pt x 602.25pt>
+<HistogramasDensidad/histograma_GNP.png, id=19, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_GNP.png Graphic file (type png)
 <use HistogramasDensidad/histograma_GNP.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_GNP.png  used on input line 86.
+Package pdftex.def Info: HistogramasDensidad/histograma_GNP.png  used on input line 94.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
 
 
-[3 <./MTC/GNP_dispersion.png> <./HistogramasDensidad/histograma_GNP.png>]
+[3 <./MTC/GNP_central.png> <./MTC/GNP_dispersion.png>]
 <MTC/Unemployed_central.png, id=23, 433.62pt x 108.405pt>
 File: MTC/Unemployed_central.png Graphic file (type png)
 <use MTC/Unemployed_central.png>
-Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 99.
+Package pdftex.def Info: MTC/Unemployed_central.png  used on input line 107.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 <MTC/Unemployed_dispersion.png, id=24, 433.62pt x 108.405pt>
 File: MTC/Unemployed_dispersion.png Graphic file (type png)
 <use MTC/Unemployed_dispersion.png>
-Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 104.
+Package pdftex.def Info: MTC/Unemployed_dispersion.png  used on input line 112.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<HistogramasDensidad/histograma_Unemployed.png, id=25, 803.0pt x 602.25pt>
+
+
+[4 <./HistogramasDensidad/histograma_GNP.png> <./MTC/Unemployed_central.png> <./MTC/Unemployed_dispersion.png>]
+<HistogramasDensidad/histograma_Unemployed.png, id=29, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_Unemployed.png Graphic file (type png)
 <use HistogramasDensidad/histograma_Unemployed.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_Unemployed.png  used on input line 122.
+Package pdftex.def Info: HistogramasDensidad/histograma_Unemployed.png  used on input line 130.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
-
-
-[4 <./MTC/Unemployed_central.png> <./MTC/Unemployed_dispersion.png>]
-<MTC/Armed.Forces_central.png, id=29, 433.62pt x 108.405pt>
+<MTC/Armed.Forces_central.png, id=30, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_central.png Graphic file (type png)
 <use MTC/Armed.Forces_central.png>
-Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 135.
+Package pdftex.def Info: MTC/Armed.Forces_central.png  used on input line 143.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Armed.Forces_dispersion.png, id=30, 433.62pt x 108.405pt>
+<MTC/Armed.Forces_dispersion.png, id=31, 433.62pt x 108.405pt>
 File: MTC/Armed.Forces_dispersion.png Graphic file (type png)
 <use MTC/Armed.Forces_dispersion.png>
-Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 140.
+Package pdftex.def Info: MTC/Armed.Forces_dispersion.png  used on input line 148.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[5 <./HistogramasDensidad/histograma_Unemployed.png> <./MTC/Armed.Forces_central.png> <./MTC/Armed.Forces_dispersion.png>]
-Overfull \hbox (18.25612pt too wide) in paragraph at lines 147--148
+[5 <./HistogramasDensidad/histograma_Unemployed.png>]
+Overfull \hbox (18.25612pt too wide) in paragraph at lines 155--156
 []\OT1/cmr/m/n/10 La simetr^^S^^Pa neg-a-tiva (-0.37) sug-iere una in-cli-naci^^Son ha-cia la izquierda. 
  []
 
-<HistogramasDensidad/histograma_Armed.Forces.png, id=35, 803.0pt x 602.25pt>
+<HistogramasDensidad/histograma_Armed.Forces.png, id=36, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_Armed.Forces.png Graphic file (type png)
 <use HistogramasDensidad/histograma_Armed.Forces.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_Armed.Forces.png  used on input line 157.
+Package pdftex.def Info: HistogramasDensidad/histograma_Armed.Forces.png  used on input line 165.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
-<MTC/Population_central.png, id=36, 433.62pt x 108.405pt>
+
+
+[6 <./MTC/Armed.Forces_central.png> <./MTC/Armed.Forces_dispersion.png>]
+<MTC/Population_central.png, id=40, 433.62pt x 108.405pt>
 File: MTC/Population_central.png Graphic file (type png)
 <use MTC/Population_central.png>
-Package pdftex.def Info: MTC/Population_central.png  used on input line 170.
+Package pdftex.def Info: MTC/Population_central.png  used on input line 178.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Population_dispersion.png, id=37, 433.62pt x 108.405pt>
+<MTC/Population_dispersion.png, id=41, 433.62pt x 108.405pt>
 File: MTC/Population_dispersion.png Graphic file (type png)
 <use MTC/Population_dispersion.png>
-Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 175.
+Package pdftex.def Info: MTC/Population_dispersion.png  used on input line 183.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
-
-[6 <./HistogramasDensidad/histograma_Armed.Forces.png>]
-Overfull \hbox (4.75615pt too wide) in paragraph at lines 179--180
+Overfull \hbox (4.75615pt too wide) in paragraph at lines 187--188
 []\OT1/cmr/m/n/10 La me-dia es 117.42, in-di-cando el tama~no prome-dio de la poblaci^^Son. 
  []
 
 
-Overfull \hbox (5.81165pt too wide) in paragraph at lines 182--183
+
+[7 <./HistogramasDensidad/histograma_Armed.Forces.png> <./MTC/Population_central.png> <./MTC/Population_dispersion.png>]
+Overfull \hbox (5.81165pt too wide) in paragraph at lines 190--191
 []\OT1/cmr/m/n/10 La simetr^^S^^Pa pos-i-tiva (0.26) sug-iere una in-cli-naci^^Son ha-cia la derecha. 
  []
 
-<HistogramasDensidad/histograma_Population.png, id=42, 803.0pt x 602.25pt>
+<HistogramasDensidad/histograma_Population.png, id=47, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_Population.png Graphic file (type png)
 <use HistogramasDensidad/histograma_Population.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_Population.png  used on input line 193.
+Package pdftex.def Info: HistogramasDensidad/histograma_Population.png  used on input line 201.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
-
-
-[7 <./MTC/Population_central.png> <./MTC/Population_dispersion.png>]
-<MTC/Year_central.png, id=47, 433.62pt x 108.405pt>
+<MTC/Year_central.png, id=48, 433.62pt x 108.405pt>
 File: MTC/Year_central.png Graphic file (type png)
 <use MTC/Year_central.png>
-Package pdftex.def Info: MTC/Year_central.png  used on input line 208.
+Package pdftex.def Info: MTC/Year_central.png  used on input line 216.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Year_dispersion.png, id=48, 433.62pt x 108.405pt>
+<MTC/Year_dispersion.png, id=49, 433.62pt x 108.405pt>
 File: MTC/Year_dispersion.png Graphic file (type png)
 <use MTC/Year_dispersion.png>
-Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 213.
+Package pdftex.def Info: MTC/Year_dispersion.png  used on input line 221.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[8 <./HistogramasDensidad/histograma_Population.png> <./MTC/Year_central.png> <./MTC/Year_dispersion.png>]
-<HistogramasDensidad/histograma_Year.png, id=53, 803.0pt x 602.25pt>
+[8 <./HistogramasDensidad/histograma_Population.png>]
+<HistogramasDensidad/histograma_Year.png, id=54, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_Year.png Graphic file (type png)
 <use HistogramasDensidad/histograma_Year.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_Year.png  used on input line 230.
+Package pdftex.def Info: HistogramasDensidad/histograma_Year.png  used on input line 238.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
-<MTC/Employed_central.png, id=54, 433.62pt x 108.405pt>
+
+
+[9 <./MTC/Year_central.png> <./MTC/Year_dispersion.png>]
+<MTC/Employed_central.png, id=58, 433.62pt x 108.405pt>
 File: MTC/Employed_central.png Graphic file (type png)
 <use MTC/Employed_central.png>
-Package pdftex.def Info: MTC/Employed_central.png  used on input line 244.
+Package pdftex.def Info: MTC/Employed_central.png  used on input line 252.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
-<MTC/Employed_dispersion.png, id=55, 433.62pt x 108.405pt>
+<MTC/Employed_dispersion.png, id=59, 433.62pt x 108.405pt>
 File: MTC/Employed_dispersion.png Graphic file (type png)
 <use MTC/Employed_dispersion.png>
-Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 249.
+Package pdftex.def Info: MTC/Employed_dispersion.png  used on input line 257.
 (pdftex.def)             Requested size: 345.0pt x 86.25433pt.
 
 
-[9 <./HistogramasDensidad/histograma_Year.png>]
-<HistogramasDensidad/histograma_Employed.png, id=60, 803.0pt x 602.25pt>
+[10 <./HistogramasDensidad/histograma_Year.png> <./MTC/Employed_central.png> <./MTC/Employed_dispersion.png>]
+<HistogramasDensidad/histograma_Employed.png, id=64, 803.0pt x 602.25pt>
 File: HistogramasDensidad/histograma_Employed.png Graphic file (type png)
 <use HistogramasDensidad/histograma_Employed.png>
-Package pdftex.def Info: HistogramasDensidad/histograma_Employed.png  used on input line 267.
+Package pdftex.def Info: HistogramasDensidad/histograma_Employed.png  used on input line 275.
 (pdftex.def)             Requested size: 172.5pt x 129.37094pt.
+<Correlacion.png, id=65, 566.71725pt x 314.97675pt>
+File: Correlacion.png Graphic file (type png)
+<use Correlacion.png>
+Package pdftex.def Info: Correlacion.png  used on input line 306.
+(pdftex.def)             Requested size: 172.5pt x 95.87311pt.
 
 
-[10 <./MTC/Employed_central.png> <./MTC/Employed_dispersion.png>]
-<GraficosDispersion/GNP.deflator_vs_GNP.png, id=64, 481.8pt x 481.8pt>
-File: GraficosDispersion/GNP.deflator_vs_GNP.png Graphic file (type png)
-<use GraficosDispersion/GNP.deflator_vs_GNP.png>
-Package pdftex.def Info: GraficosDispersion/GNP.deflator_vs_GNP.png  used on input line 307.
-(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 
 [11 <./HistogramasDensidad/histograma_Employed.png>]
-<GraficosDispersion/GNP_vs_Year.png, id=70, 481.8pt x 481.8pt>
+<GraficosDispersion/GNP.deflator_vs_GNP.png, id=70, 481.8pt x 481.8pt>
+File: GraficosDispersion/GNP.deflator_vs_GNP.png Graphic file (type png)
+<use GraficosDispersion/GNP.deflator_vs_GNP.png>
+Package pdftex.def Info: GraficosDispersion/GNP.deflator_vs_GNP.png  used on input line 322.
+(pdftex.def)             Requested size: 172.5pt x 172.4995pt.
+<GraficosDispersion/GNP_vs_Year.png, id=71, 481.8pt x 481.8pt>
 File: GraficosDispersion/GNP_vs_Year.png Graphic file (type png)
 <use GraficosDispersion/GNP_vs_Year.png>
-Package pdftex.def Info: GraficosDispersion/GNP_vs_Year.png  used on input line 318.
+Package pdftex.def Info: GraficosDispersion/GNP_vs_Year.png  used on input line 333.
 (pdftex.def)             Requested size: 172.5pt x 172.4995pt.
-<GraficosDispersion/Population_vs_GNP.png, id=71, 481.8pt x 481.8pt>
+
+
+[12 <./Correlacion.png (PNG copy)> <./GraficosDispersion/GNP.deflator_vs_GNP.png>]
+<GraficosDispersion/Population_vs_GNP.png, id=76, 481.8pt x 481.8pt>
 File: GraficosDispersion/Population_vs_GNP.png Graphic file (type png)
 <use GraficosDispersion/Population_vs_GNP.png>
-Package pdftex.def Info: GraficosDispersion/Population_vs_GNP.png  used on input line 329.
+Package pdftex.def Info: GraficosDispersion/Population_vs_GNP.png  used on input line 344.
 (pdftex.def)             Requested size: 172.5pt x 172.4995pt.
 
-
-[12 <./GraficosDispersion/GNP.deflator_vs_GNP.png> <./GraficosDispersion/GNP_vs_Year.png>]
-Overfull \hbox (10.69507pt too wide) in paragraph at lines 346--348
+Overfull \hbox (10.69507pt too wide) in paragraph at lines 361--363
 \OT1/cmr/m/n/10 Existe una relaci^^Son mod-er-ada en-tre el n^^Sumero de de-sem-plea-dos y la poblaci^^Son
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 360.
 
-Overfull \hbox (30.87294pt too wide) in paragraph at lines 360--360
+
+[13 <./GraficosDispersion/GNP_vs_Year.png> <./GraficosDispersion/Population_vs_GNP.png>]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 375.
+
+Overfull \hbox (30.87294pt too wide) in paragraph at lines 375--375
 []\OT1/cmr/bx/n/14.4 An^^Salisis del Mod-elo de Re-gresi^^Son Lin-eal: \OT1/cmtt/m/n/14.4 GNP.deflator
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 365.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 380.
 (C:\Users\RUBEN\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Overfull \hbox (29.64397pt too wide) in paragraph at lines 364--366
+Overfull \hbox (29.64397pt too wide) in paragraph at lines 379--381
 \OT1/cmr/bx/n/10 Call: \OT1/cmr/m/n/10 El mod-elo de re-gresi^^Son lin-eal fue ajus-tado con la f^^Sormula \OT1/cmtt/m/n/10 longley\TS1/cmtt/m/n/10 $\OT1/cmtt/m/n/10 GNP.deflator
  []
 
 
 
-[13 <./GraficosDispersion/Population_vs_GNP.png>]
-
 [14]
 
 [15]
-<Correlacion.png, id=94, 566.71725pt x 314.97675pt>
-File: Correlacion.png Graphic file (type png)
-<use Correlacion.png>
-Package pdftex.def Info: Correlacion.png  used on input line 435.
-(pdftex.def)             Requested size: 172.5pt x 95.87311pt.
 
-
-[16 <./Correlacion.png (PNG copy)>]
-<Normal.png, id=98, 566.71725pt x 317.38576pt>
-File: Normal.png Graphic file (type png)
-<use Normal.png>
-Package pdftex.def Info: Normal.png  used on input line 454.
-(pdftex.def)             Requested size: 276.00105pt x 154.576pt.
-
-
-[17 <./Normal.png>] (Informe.aux)
+[16] (Informe.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 3571 strings out of 473904
- 63428 string characters out of 5726600
- 1935908 words of memory out of 5000000
- 26391 multiletter control sequences out of 15000+600000
+ 3562 strings out of 473904
+ 63073 string characters out of 5726600
+ 1937908 words of memory out of 5000000
+ 26382 multiletter control sequences out of 15000+600000
  567241 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,9n,65p,571b,425s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 58i,9n,65p,546b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RUBEN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\RUBEN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1000.pk> <C:\Users\RUBEN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/RUBEN/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Informe.pdf (17 pages, 529275 bytes).
+Output written on Informe.pdf (16 pages, 518743 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
